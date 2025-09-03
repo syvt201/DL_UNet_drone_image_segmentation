@@ -1,5 +1,5 @@
 # Deep Learning-Based Image Segmentation for Drone-Captured Images
-This project focuses on segmenting two types of objects—trees and grass—using a deep learning model. Since trees and grass share similar colors, accurately distinguishing between them presents a challenge. To address this, I employed the UNet model, a widely recognized deep learning architecture for segmentation tasks. The model was trained on a dataset of drone-captured images. I labeled the tree and grass classes using the AnyLabeling tool, drawing bounding boxes around the objects and generating grayscale mask images for the segmentation process.
+This project focuses on segmenting trees in drone-captured RGB images using deep learning. The UNet model, a widely used architecture for image segmentation, was trained on a custom dataset. I annotated the images with the AnyLabeling tool, generating segmentation masks from JSON outputs to create the training data for the model.
 
 Draw bouding-boxes around the objects in AnyLabeling
 ![](AnyLabeling_labeling.png)
